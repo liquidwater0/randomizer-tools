@@ -1,0 +1,47 @@
+@use "../../scss/colors" as *;
+
+.generator-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10rem;
+
+    .result {
+        font-size: 4rem;
+        color: $color-primary;
+    }
+
+    .input-groups {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        label {
+            font-size: 2rem;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .generator-content {
+        gap: 5rem;
+
+        .result {
+            font-size: 3rem;
+        }
+
+        .input-group {
+            flex-direction: column;
+        }
+    }
+}

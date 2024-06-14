@@ -1,0 +1,19 @@
+@use "../../scss/colors" as *;
+
+.option-button {
+    font-size: 2.5rem;
+    border-radius: 1000rem;
+    padding: 0.25em 0.75em;
+    font-weight: bold;
+    background-color: $color-primary;
+    color: $color-background;
+    transition: opacity 250ms;
+
+    &[data-selected="true"] {
+        opacity: 1;
+    }
+
+    &[data-selected="false"] {
+        opacity: 0.25;
+    }
+}

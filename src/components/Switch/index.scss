@@ -1,0 +1,33 @@
+@use "../../scss/colors" as *;
+
+.switch {
+    --switch-width: 3rem;
+    --switch-height: 1.25rem;
+
+    position: relative;
+    background-color: darken($color-primary, 50%);
+    outline: var(--outline-thickness) solid var(--color-accent);
+    outline-offset: var(--gap);
+    width: var(--switch-width);
+    height: var(--switch-height);
+    border-radius: 1000rem;
+
+    &[data-checked="true"]::after {
+        translate: calc(var(--switch-width) - var(--switch-height)) 0;
+    }
+
+    &[data-checked="false"]::after {
+        translate: 0 0;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $color-primary;
+        width: var(--switch-height);
+        inset: 0;
+        scale: 1.25;
+        border-radius: 1000rem;
+        transition: translate 150ms;
+    }
+}

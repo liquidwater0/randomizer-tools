@@ -1,0 +1,21 @@
+@use "../../scss/colors" as *;
+
+.logo {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    color: $color-accent;
+    font-size: 2.5rem;
+    font-weight: bold;
+    user-select: none;
+
+    svg {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .logo {
+        font-size: 2rem;
+    }
+}

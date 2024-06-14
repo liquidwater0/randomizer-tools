@@ -1,0 +1,21 @@
+@use "../../scss/colors" as *;
+
+.generate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary;
+    font-size: 5rem;
+    border-radius: 100%;
+    padding: 0.25em;
+    aspect-ratio: 1;
+    transition: background-color 250ms;
+
+    &:hover {
+        background-color: darken($color-primary, 10%);
+    }
+
+    svg {
+        font-size: 1em;
+    }
+}
