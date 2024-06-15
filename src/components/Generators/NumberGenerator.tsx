@@ -19,6 +19,7 @@ export default function NumberGenerator() {
                     <label htmlFor="min">Min</label>
                     <Input
                         id="min"
+                        type="number"
                         defaultValue={min}
                         onChange={({ target }) => setMin(+(target as any).value)}
                     />
@@ -28,6 +29,7 @@ export default function NumberGenerator() {
                     <label htmlFor="max">Max</label>
                     <Input
                         id="max"
+                        type="number"
                         defaultValue={max}
                         onChange={({ target }) => setMax(+(target as any).value)}
                     />
