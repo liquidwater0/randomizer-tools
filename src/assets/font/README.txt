@@ -1,30 +1,27 @@
-Roboto Flex Variable Font
-=========================
+Inter Variable Font
+===================
 
-This download contains Roboto Flex as both a variable font and a static font.
+This download contains Inter as both a variable font and static fonts.
 
-Roboto Flex is a variable font with these axes:
-  GRAD
-  XOPQ
-  XTRA
-  YOPQ
-  YTAS
-  YTDE
-  YTFI
-  YTLC
-  YTUC
-  opsz
+Inter is a variable font with these axes:
   slnt
-  wdth
   wght
 
 This means all the styles are contained in a single file:
-  RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf
+  Inter-VariableFont_slnt,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font file for Roboto Flex:
-  static/RobotoFlex-Regular.ttf
+in those cases you can use the static font files for Inter:
+  static/Inter-Thin.ttf
+  static/Inter-ExtraLight.ttf
+  static/Inter-Light.ttf
+  static/Inter-Regular.ttf
+  static/Inter-Medium.ttf
+  static/Inter-SemiBold.ttf
+  static/Inter-Bold.ttf
+  static/Inter-ExtraBold.ttf
+  static/Inter-Black.ttf
 
 Get started
 -----------
